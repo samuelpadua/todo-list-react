@@ -6,16 +6,15 @@ Não existem regras ou limitações na UI/UX da aplicação, ela deve ser pensad
 
 ## Requisitos Funcionais
 
-1. **[Obrigatório]** Adicionar tarefas a uma pilha;
-2. **[Obrigatório]** Marcar tarefas como concluídas;
-3. No cabeçalho da aplicação, exibir a quantidade de tarefas adicionadas, concluídas (porcentagem) e pendentes (porcentagem);
+1. **[Obrigatório]** O usuário deve ser capaz de adicionar tarefas a uma lista;
+   * As tarefas adicionadas devem ser ordernadas com a mais recente ao topo;
+2. **[Obrigatório]** O usuário deve ser capaz de marcar tarefas adicionadas como concluídas;
+   * As tarefas concluídas devem ser ordernadas com a mais antiga ao topo.
+3. **[Obrigatório]** O usuário deve visualizar em um cabeçalho a quantidade de tarefas adicionadas, concluídas (em porcentagem) e pendentes (em porcentagem);
    * Para as tarefas pendentes, se a porcentagem for `>= 50%` deve ser exibida em **vermelho**, caso contrário, em **verde**;
    * Para as tarefas concluídas, se a porcentagem for `>= 50%` deve ser exibida em **verde**, caso contrário, em **vermelho**.
-4. Na exibição da lista de tarefas:
-   * As tarefas adicionadas devem ser ordernadas com a mais recente ao topo;
-   * As tarefas concluídas devem ser ordernadas com a mais antiga ao topo.
-5. O estado da lista de tarefas deve ser salvo/carregado automaticamente no armazenamento local;
-6. Tornar possível migrar do modo claro para o modo escuro e vice-versa.
+4. O usuário deve conseguir rever suas tarefas novamente, mesmo que feche o navegador ou atualize a página;
+5. O usuário deve conseguir migrar do modo claro para o modo escuro e vice-versa.
 
 ## Requisitos Não Funcionais
 
