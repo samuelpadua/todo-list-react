@@ -1,0 +1,3 @@
+type ReportProps = {
+	report: Reports;
+};
